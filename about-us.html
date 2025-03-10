@@ -29,7 +29,7 @@
       <header class="header">
         <div class="container">
           <strong class="logo">
-            <a href="/index.html">
+            <a href="index.html">
               <img src="images/logo.png" alt="Карпат Техно Альянс" />
             </a>
           </strong>
@@ -39,24 +39,24 @@
               <li>
                 <a href="#" class="opener">Послуги</a>
                 <ul class="drop-menu">
-                  <li><a href="/expertiza-pidpriemstv.html">Експертиза підприємств для отримання Дозволів від Державної служби України з питань праці</a></li>
-                  <li><a href="/perevirka-cistern.html">Перевірка цистерн для перевезення небезпечних вантажів</a></li>
-                  <li><a href="/tehnichni-oglyady.html">Технічні огляди, випробування, проведення неруйнівного контролю</a></li>
-                  <li><a href="/vigotovlennya-dublikativ.html">Виготовлення дублікатів паспортів на машини, механізми, устатковання підвищенної небезпеки</a></li>
-                  <li><a href="/navchannya-ohoroni.html">Професійно-технічна освіта (8155 Оператор заправних станцій)</a></li>
-                  <li><a href="/expertne-obstejennya.html">Експертне обстеження (технічне діагностування)</a></li>
-                  <li><a href="/provedennya-audity.html">Проведення аудиту стану охорони праці</a></li>
+                  <li><a href="expertiza-pidpriemstv.html">Експертиза підприємств для отримання Дозволів від Державної служби України з питань праці</a></li>
+                  <li><a href="perevirka-cistern.html">Перевірка цистерн для перевезення небезпечних вантажів</a></li>
+                  <li><a href="tehnichni-oglyady.html">Технічні огляди, випробування, проведення неруйнівного контролю</a></li>
+                  <li><a href="vigotovlennya-dublikativ.html">Виготовлення дублікатів паспортів на машини, механізми, устатковання підвищенної небезпеки</a></li>
+                  <li><a href="navchannya-ohoroni.html">Професійно-технічна освіта (8155 Оператор заправних станцій)</a></li>
+                  <li><a href="expertne-obstejennya.html">Експертне обстеження (технічне діагностування)</a></li>
+                  <li><a href="provedennya-audity.html">Проведення аудиту стану охорони праці</a></li>
                 </ul>
               </li>
               <li>
                 <a href="#" class="opener">Про компанію</a>
                 <ul class="drop-menu no-wrap">
-                  <li><a href="/organ-z-inspectuvannia.html">Орган з інспектування</a></li>
-                  <li><a href="/documents.html">Документи</a></li>
-                  <li><a href="/about-us.html">Про компанію</a></li>
+                  <li><a href="organ-z-inspectuvannia.html">Орган з інспектування</a></li>
+                  <li><a href="documents.html">Документи</a></li>
+                  <li><a href="about-us.html">Про компанію</a></li>
                 </ul>
               </li>
-              <li><a href="/contacts.html">Контакти</a></li>
+              <li><a href="contacts.html">Контакти</a></li>
               <li><a class="phone-link" href="tel:+380667927777">+38 (066) 792 77 77</a></li>
               <li><a class="phone-link" href="tel:+380442226225">+38 (044) 222 62 25</a></li>
             </ul>
@@ -199,32 +199,32 @@
                     <img loading="lazy" src="images/proNas/2.png" alt="image description" />
                   </div>
                 </div>
-                <form action="#" class="call-to-us-form">
+                <form action="#" class="call-to-us-form form-validation">
                   <h4 class="desc-view">Зв’язатися з нами</h4>
                   <div class="form-row">
                     <div class="form-col">
-                      <label>Ваше ім’я</label>
-                      <input type="text" class="form-control" placeholder="Ім’я" />
+                      <label for="first_name">Ваше ім’я</label>
+                      <input id="first_name" data-required="true" type="text" class="form-control" name="Name" placeholder="Ім’я" />
                     </div>
                     <div class="form-col">
-                      <label>Ваше прізвище</label>
-                      <input type="text" class="form-control" placeholder="Прізвище" />
-                    </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="form-col">
-                      <label>Email</label>
-                      <input type="email" class="form-control" placeholder="Email" />
-                    </div>
-                    <div class="form-col">
-                      <label>Номер телефону</label>
-                      <input type="text" class="form-control" placeholder="+380 (050) 123 45 67" />
+                      <label for="last_name">Ваше прізвище</label>
+                      <input id="last_name" data-required="true" type="text" class="form-control" name="Lastname" placeholder="Прізвище" />
                     </div>
                   </div>
                   <div class="form-row">
                     <div class="form-col">
-                      <label>Повідомлення</label>
-                      <textarea class="form-control" placeholder="Повідомлення"></textarea>
+                      <label for="input_email">Email</label>
+                      <input id="input_email" data-required="true" type="email" class="form-control" name="Email" placeholder="Email" />
+                    </div>
+                    <div class="form-col">
+                      <label for="phone_number">Номер телефону</label>
+                      <input id="phone_number" data-required="true" type="text" class="form-control" name="Phone" placeholder="+380 (050) 123 45 67" />
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-col">
+                      <label for="input_message">Повідомлення</label>
+                      <textarea id="input_message" data-required="true" class="form-control" name="message" placeholder="Повідомлення"></textarea>
                     </div>
                   </div>
                   <input type="submit" value="Відправити" class="btn btn-primary" />
@@ -243,15 +243,15 @@
           </strong>
           <ul class="footer-menu">
             <li>
-              <a href="/about-us.html">Про нас</a>
+              <a href="about-us.html">Про нас</a>
               <ul class="sub-list">
-                <li><a href="/documents.html">Документи</a></li>
-                <li><a href="/pro-nas.html">Досвід роботи</a></li>
-                <li><a href="/sitemap.html">Карта сайту</a></li>
+                <li><a href="documents.html">Документи</a></li>
+                <li><a href="pro-nas.html">Досвід роботи</a></li>
+                <li><a href="sitemap.html">Карта сайту</a></li>
               </ul>
             </li>
-            <li><a href="/index.html">Послуги</a></li>
-            <li><a href="/contacts.html">Контакти</a></li>
+            <li><a href="index.html">Послуги</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
           </ul>
           <div class="contact-box">
             <ul class="phones">
@@ -259,6 +259,10 @@
               <li><a href="tel:+380667927777">+38 (066) 79 27 777</a></li>
             </ul>
             <address>м. Київ <br />вул. Рогнідинська, 4а</address>
+          </div>
+          <div class="copyright-box">
+            <span class="copy">&copy; Карпат Техно Альянс 2025</span>
+            <span><a href="#">Privacy Policy</a></span>
           </div>
         </div>
       </footer>
